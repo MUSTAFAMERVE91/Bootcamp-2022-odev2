@@ -1,11 +1,14 @@
+import Assistants from "./compenents/Assistants/Assistants";
+import "./App.css"
+import Students from "./compenents/Students/Students";
+const App = () => {
 
-function App() {
   return (
-      <header>
-        <h1>Kodluyoruz React Bootcamp 2022 </h1>
-        <p>Bursa Front-End Bootcamp 2022</p>
-        <p>mustafa</p>
-      </header>
+    <div className="app">
+      <Assistants></Assistants>
+      <Students></Students>
+      </div>
+
   );
 }
 
